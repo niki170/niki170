@@ -1,0 +1,84 @@
+@import __basicSett
+.main-content
+    &__article
+        +flex-row()
+    &__text
+        width: 600px
+        margin-top: 200px
+        margin-right: 50px
+.metod
+    &__content
+        &__item
+            +flex-row()
+            align-items: center
+            &__text
+                width: 700px
+.therapy
+    &__content
+        +flex-row()
+        margin-top: 50px
+        margin-bottom: 50px
+    &__text
+        margin: 50px
+        max-width: 600px
+    &__description
+        +flex-row()
+        &__text               
+            max-width: 1000px
+            &__main-text
+                margin: 35px
+.gallery
+    text-align: center
+    &__content
+        text-align: center
+        margin: 50px
+        &__photos
+            margin: 5px
+    &__button
+        color: #fff
+        width: 363px
+        height: 95px
+        background: linear-gradient(257.22deg, #FF728B 20.07%, #FF9900 89.12%)
+        border-radius: 50px
+.news
+    &__content
+        +flex-row()
+        &__block
+            width: 310px
+            height: 530px
+            box-shadow: 0 1px 3px rgba(27, 23, 26, 0.2)
+            background-color: #ffffff
+            margin: 45px
+            &__h
+                margin-top: 30px
+                margin-bottom: 10px
+            &__date
+                color: #747373
+            &__text
+                margin-top: 20px
+.contacts
+    +flex-row()
+    &__content
+        width: 720px
+        +flex-row()
+        align-items: center
+        &__links
+            margin: 20px
+            &__logo
+                +content-center()
+                &__item
+                    width: 40px
+                    height: 40px
+                    margin: 10px
+/* для страницы апф-терапии*/
+.stix
+    +content-center()
+    text-align: center
+    width: 290px
+
+@media screen and ( max-width: 1200px ) {
+.main-content
+    &__text
+        margin-top: 60px
+.metod__content__item
+    margin-top: 20px}
